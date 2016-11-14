@@ -14,11 +14,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* --MAIN BLOCKS-- */
 
-body {
+html {
   background-color: #FFEBCD;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   overflow-x: hidden;
-
 }
 
 header {
