@@ -23,8 +23,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 0.625em = 11.25px @ Base
 */
 
-/* --OTHER NOTES-- */
-/* Subtracting and Adding negative margin value when (0 -9999 and x 9999) shown */
 
 /* --MAIN BLOCKS-- */
 
@@ -54,10 +52,8 @@ header {
 
 footer {
   text-align: center;
-  margin: 0 -9999em;
-  margin-bottom: -9999em;
-  padding: 0.25em 9999em;
-  font-size: 1em;
+  padding: 2em;
+  font-size: 1.125em;
 }
 
 .share {
@@ -66,8 +62,7 @@ footer {
 
 h2 {
   color: #800000;
-  margin: 0 -9999em;
-  padding: 0.25em 9999em;
+  padding: 0.25em;
   padding-bottom: 0.75em;
   font-size: 1.953em;
   line-height: 1.28em;
