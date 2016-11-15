@@ -15,7 +15,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* --FONT-- */
 /* Type is set to MAJOR THIRD from Modular Scale */
 /* Instead of typing at each line of code, I will summarize the conversions here to make it easier*/
-/* (BASE= 1.125em = 18px) 1.25em = 22.5px @ Base
+/* (BASE= 1.125em = 18px)
+1.25em = 22.5px @ Base
+1.953em = 35.156px @ Base
+0.75em = 22.5px @ 35.156px em
+1.563em = 28.125px @ Base
+0.625em = 11.25px @ Base
+*/
 
 /* --OTHER NOTES-- */
 /* Subtracting and Adding negative margin value when (0 -9999 and x 9999) shown */
@@ -121,7 +127,8 @@ ul.resumeulmain {
   border-style: inset;
   border-width: 0.2em;
   border-color: #2F4F4F;
-  background-color: maroon;
+  background-color: #CD5C5C;
+  list-style-type: square;
 }
 
 .bbtypes {
@@ -205,3 +212,68 @@ nav li a:hover {
 /* END IDs */
 
 /* --STATE STYLES-- */
+
+/* 1st - 320px @ 16px for Mobile (specifically Galaxies) */
+@media screen and (min-width: 20em) {
+  html {
+    font-size: 0.8em;
+    line-height: 1.125em;
+  }
+
+  nav {
+    padding: 0.3em;
+    margin-top: 0.25em;
+  }
+
+  nav li a {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 0.625em;
+    text-decoration: none;
+    float: left;
+    padding: 0.625em;
+    background-color: #333333;
+    color: #ffffff;
+    border-bottom: 0.0625em;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+  }
+
+  #youtubevid {
+    text-align: center;
+    width: auto;
+    height: auto;
+  }
+
+  img.bbpic {
+    width: 50%;
+    height: 50%;
+  }
+
+}
+
+/* 2nd - 768px @ 16px for Tablet (Specifically iPads) */
+@media screen and (min-width: 48em) {
+  html {
+    font-size: 1.125em;
+    line-height: 1.25em;
+  }
+
+  #youtubevid {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+/* 3rd - 1200px @16px for Laptops and other PCs */
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 1.25em;
+  }
+
+  ul.resumeulmain {
+    margin-left: 1.125em;
+  }
+}
+
