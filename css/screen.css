@@ -12,12 +12,18 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 
+/* --FONT-- */
+/* Type is set to MAJOR THIRD from Modular Scale */
+
+
 /* --MAIN BLOCKS-- */
 
 html {
   background-color: #FFEBCD;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   overflow-x: hidden;
+  font-size: 1.125em; /* 18px */
+  line-height: 1.25em; /* 1 gridline or 22.5px/18px */
 }
 
 header {
