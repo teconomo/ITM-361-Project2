@@ -14,7 +14,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* --FONT-- */
 /* Type is set to MAJOR THIRD from Modular Scale */
+/* Instead of typing at each line of code, I will summarize the conversions here to make it easier*/
+/* (BASE= 1.125em = 18px) 1.25em = 22.5px @ Base
 
+/* --OTHER NOTES-- */
+/* Subtracting and Adding negative margin value when (0 -9999 and x 9999) shown */
 
 /* --MAIN BLOCKS-- */
 
@@ -27,40 +31,62 @@ html {
   line-height: 1.25em; /* 1 gridline or 22.5px/18px */
 }
 
+body {
+  padding: 1.25em 1.25em;
+}
+
 header {
   color: #800000;
   text-align: center;
-  margin-bottom: 3em;
-  font-size: 1.25em;
+  margin-bottom: 1.125em;
+  font-size: 1.953em;
   background-color: #778899;
   border-style: outset;
   border-color: #2F4F4F;
-  border-width: 0.75em;
+  border-width: 0.5em;
 }
 
 footer {
   text-align: center;
-  padding: 2em;
+  margin: 0 -9999em;
+  margin-bottom: -9999em;
+  padding: 0.25em 9999em;
   font-size: 1em;
+}
+
+.share {
+  color: maroon;
 }
 
 h2 {
   color: #800000;
-  padding: 1em;
-  font-size: 1.75em;
+  margin: 0 -9999em;
+  padding: 0.25em 9999em;
+  padding-bottom: 0.75em;
+  font-size: 1.953em;
+  line-height: 1.28em;
   text-align: center;
 }
 
 h3 {
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.563em;
+  line-height: 1.6em;
+  padding-bottom: 0.8em;
+}
+
+h4 {
+  font-size: 1.4065em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
 }
 
 p {
   padding-left: 1em;
-  padding: 1em;
+  padding-top: 0.625em;
+  padding-bottom: 1.25em;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.125em;
 }
 
 img {
@@ -75,19 +101,16 @@ img {
   border-width: 0.25em;
 }
 
-ol {
-  margin-left: 2em;
-  margin-right: auto;
-}
-
 ul.resumeulmain {
-  margin-left: 2em;
+  margin-left: 0.625em;
   margin-right: auto;
+  padding-bottom: 1.25em;
+  padding-top: 0.625em;
+  list-style-type: circle;
 }
 
 .resumeul-contact {
   text-align: center;
-  list-style-type: none;
 }
 
 .genrelist {
@@ -101,10 +124,20 @@ ul.resumeulmain {
   background-color: maroon;
 }
 
+.bbtypes {
+  padding-top: 0.625em;
+  padding-bottom: 1.25em;
+  padding-left: 1em;
+  font-size: 1.125em;
+  color: maroon;
+}
+
 li.job {
   color: maroon;
   font-size: 1.175em;
   list-style-type: none;
+  padding-top: 0.3125em;
+  padding-bottom: 0.3125em;
 }
 
 
@@ -113,7 +146,7 @@ li.job {
 nav {
   padding: 0.6em;
   text-align: center;
-  margin-top: 0.8em;
+  margin-top: 0.625em;
 }
 
 nav li {
@@ -168,3 +201,7 @@ nav li a:hover {
   max-width: auto;
   max-height: auto;
 }
+
+/* END IDs */
+
+/* --STATE STYLES-- */
