@@ -1,5 +1,5 @@
 # ITM-361-Theo-Project2
-ITM-361 First Project
+ITM-361 Second Project
 
 This repository is for the ITM 361 Project 2 .
 
